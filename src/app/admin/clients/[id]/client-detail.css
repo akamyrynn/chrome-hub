@@ -11,7 +11,7 @@
 }
 
 .back-link {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.85rem;
   color: var(--base-500);
   text-decoration: none;
@@ -64,7 +64,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.75rem;
   color: white;
   flex-shrink: 0;
@@ -75,7 +75,7 @@
 }
 
 .client-card-title h2 {
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.5rem;
   color: var(--base-700);
   margin: 0 0 0.5rem 0;
@@ -90,7 +90,7 @@
   display: inline-block;
   padding: 0.35rem 0.75rem;
   border-radius: 20px;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.7rem;
   text-transform: uppercase;
   font-weight: 500;
@@ -113,13 +113,13 @@
 
 .stat-value {
   display: block;
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.25rem;
   color: var(--base-700);
 }
 
 .stat-label {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.65rem;
   color: var(--base-500);
   text-transform: uppercase;
@@ -135,7 +135,7 @@
 }
 
 .client-info-section h4 {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.7rem;
   text-transform: uppercase;
   color: var(--base-500);
@@ -182,7 +182,7 @@
 }
 
 .client-interests h3 {
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.1rem;
   color: var(--base-700);
   margin: 0 0 1rem 0;
@@ -231,7 +231,7 @@
 }
 
 .interest-price {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.8rem;
   color: var(--base-600);
 }
@@ -245,7 +245,7 @@
 .interest-level {
   padding: 0.3rem 0.6rem;
   border-radius: 12px;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.6rem;
   text-transform: uppercase;
   white-space: nowrap;
@@ -279,7 +279,7 @@
   padding: 1rem 1.5rem;
   background: none;
   border: none;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.8rem;
   text-transform: uppercase;
   color: var(--base-500);
@@ -363,7 +363,7 @@
 
 .message-source {
   text-transform: uppercase;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
 }
 
 .no-messages {
@@ -413,7 +413,7 @@
   color: white;
   border: none;
   border-radius: 10px;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.8rem;
   text-transform: uppercase;
   cursor: pointer;
@@ -459,7 +459,7 @@
 }
 
 .order-number {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--base-700);
@@ -478,7 +478,7 @@
 }
 
 .order-total {
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.1rem;
   color: var(--base-700);
 }
@@ -486,7 +486,7 @@
 .order-status {
   padding: 0.25rem 0.5rem;
   border-radius: 10px;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.6rem;
   text-transform: uppercase;
 }

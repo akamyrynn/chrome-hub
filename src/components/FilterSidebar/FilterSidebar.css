@@ -25,7 +25,7 @@
   align-items: center;
   gap: 0.75rem;
   pointer-events: all;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-weight: 500;
   font-size: clamp(0.85rem, 1vw, 0.85rem);
   text-transform: uppercase;
@@ -125,7 +125,7 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-weight: 500;
   text-transform: uppercase;
   transition: opacity 0.2s ease;
@@ -146,7 +146,7 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-weight: 500;
 }
 
@@ -162,7 +162,7 @@
   color: var(--base-100);
   padding: 1rem 1.25rem;
   cursor: pointer;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-weight: 500;
   font-size: clamp(0.8rem, 0.9vw, 0.85rem);
   text-transform: uppercase;
@@ -194,7 +194,7 @@
   color: var(--base-100);
   padding: 1rem;
   cursor: pointer;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-weight: 500;
   font-size: clamp(0.8rem, 0.9vw, 0.85rem);
   text-transform: uppercase;

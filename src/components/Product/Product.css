@@ -40,7 +40,7 @@
 }
 
 .product .product-info-wrapper p:first-child {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.8rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -50,7 +50,7 @@
 }
 
 .product .product-info-wrapper p:last-child {
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.25rem;
   color: var(--base-700);
   white-space: nowrap;
@@ -59,7 +59,7 @@
 .product .product-brand {
   padding: 0;
   margin-top: 0.25rem;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.65rem;
   color: var(--base-500);
   text-transform: uppercase;
@@ -75,7 +75,7 @@
   font-size: 0.7rem;
   border: none;
   cursor: pointer;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.05em;

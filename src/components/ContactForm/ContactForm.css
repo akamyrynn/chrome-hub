@@ -70,7 +70,7 @@
   padding: 1rem;
   text-transform: uppercase;
   color: var(--base-100);
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-weight: 500;
   line-height: 1;
 }

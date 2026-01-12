@@ -54,7 +54,7 @@
 }
 
 .product-card-name {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.8rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -67,7 +67,7 @@
 }
 
 .product-card-brand {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.65rem;
   text-transform: uppercase;
   color: var(--base-500);
@@ -75,7 +75,7 @@
 }
 
 .product-card-price {
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.5rem;
   color: var(--base-700);
   line-height: 1;
@@ -89,7 +89,7 @@
 }
 
 .size-tag {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.6rem;
   padding: 0.2rem 0.4rem;
   background: var(--base-200);
@@ -111,7 +111,7 @@
   color: var(--base-100);
   border: none;
   border-radius: 8px;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -147,7 +147,7 @@
   padding: 0.35rem 0.6rem;
   background: rgba(0, 0, 0, 0.7);
   color: white;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.55rem;
   text-transform: uppercase;
   border-radius: 4px;

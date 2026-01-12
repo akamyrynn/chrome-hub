@@ -11,14 +11,14 @@
 }
 
 .clients-header h1 {
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 2.5rem;
   color: var(--base-700);
   margin: 0;
 }
 
 .clients-subtitle {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.8rem;
   color: var(--base-500);
   margin: 0.5rem 0 0 0;
@@ -60,7 +60,7 @@
 
 .stat-count {
   display: block;
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.75rem;
   color: var(--base-700);
 }
@@ -70,7 +70,7 @@
 }
 
 .stat-label {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.65rem;
   text-transform: uppercase;
   color: var(--base-500);
@@ -134,7 +134,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.25rem;
   color: white;
   flex-shrink: 0;
@@ -167,7 +167,7 @@
 .client-tier-badge {
   padding: 0.3rem 0.6rem;
   border-radius: 12px;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.6rem;
   text-transform: uppercase;
   font-weight: 500;
@@ -189,13 +189,13 @@
 }
 
 .mini-stat-value {
-  font-family: var(--font-koulen), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 1.1rem;
   color: var(--base-700);
 }
 
 .mini-stat-label {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.6rem;
   text-transform: uppercase;
   color: var(--base-500);

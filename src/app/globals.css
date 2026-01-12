@@ -1,3 +1,28 @@
+/* Local Fonts */
+@font-face {
+  font-family: 'Wulkan Display';
+  src: url('/Wulkandisplay-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Acid Grotesk';
+  src: url('/AcidGrotesk-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjnTLgNs.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --base-100: #edf1e8;
   --base-200: #d7dbd2;
@@ -6,6 +31,10 @@
   --base-500: #7d807a;
   --base-600: #1f1f1f;
   --base-700: #0f0f0f;
+  
+  --font-display: 'Wulkan Display', Georgia, serif;
+  --font-body: 'Acid Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
 }
 
 * {
@@ -20,7 +49,7 @@
 body {
   background-color: var(--base-100);
   color: var(--base-700);
-  font-family: var(--font-host-grotesk), 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-body);
 }
 
 img,
@@ -36,7 +65,7 @@ h3,
 h4,
 h5 {
   text-transform: uppercase;
-  font-family: var(--font-koulen), 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-display);
   font-weight: 700;
   line-height: 0.9;
 }
@@ -73,7 +102,7 @@ label {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--base-700);
-  font-family: var(--font-dm-mono), 'JetBrains Mono', monospace;
+  font-family: var(--font-mono);
   font-weight: 500;
   line-height: 1;
 }
@@ -101,7 +130,7 @@ label.lg {
 
 p.bodyCopy {
   text-transform: none;
-  font-family: var(--font-host-grotesk), 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-body);
   font-weight: 400;
   line-height: 1.1;
   letter-spacing: -0.01rem;
@@ -126,7 +155,7 @@ button {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--base-700);
-  font-family: var(--font-dm-mono), 'JetBrains Mono', monospace;
+  font-family: var(--font-mono);
   font-weight: 500;
   font-size: clamp(0.85rem, 1vw, 0.85rem);
   line-height: 1;
@@ -152,7 +181,7 @@ button.secondary {
 input,
 textarea,
 select {
-  font-family: var(--font-dm-mono), 'JetBrains Mono', monospace;
+  font-family: var(--font-mono);
 }
 
 .btn a {
@@ -164,7 +193,7 @@ select {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--base-700);
-  font-family: var(--font-dm-mono), 'JetBrains Mono', monospace;
+  font-family: var(--font-mono);
   font-weight: 500;
   font-size: clamp(0.85rem, 1vw, 0.85rem);
   line-height: 1;

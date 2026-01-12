@@ -14,7 +14,7 @@
   align-items: center;
   gap: 0.75rem;
   pointer-events: all;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-weight: 500;
   font-size: 0.85rem;
   text-transform: uppercase;

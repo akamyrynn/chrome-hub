@@ -169,7 +169,7 @@
 .product-meta-buttons button {
   flex: 1;
   padding: 1rem 2rem;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -350,7 +350,7 @@
 
 .product-loading p,
 .product-not-found p {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.9rem;
   text-transform: uppercase;
   color: var(--base-500);

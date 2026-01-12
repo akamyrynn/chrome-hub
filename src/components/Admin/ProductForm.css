@@ -18,7 +18,7 @@
   border: 1px solid var(--base-300);
   border-radius: 6px;
   background: white;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.75rem;
   color: var(--base-600);
   cursor: pointer;
@@ -50,7 +50,7 @@
   padding: 0.25rem 0.5rem;
   background: var(--base-700);
   color: white;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.6rem;
   text-transform: uppercase;
   border-radius: 4px;
@@ -73,12 +73,12 @@
   justify-content: center;
   min-height: 300px;
   color: var(--base-500);
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
 }
 
 /* Card Subtitle */
 .admin-card-subtitle {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.7rem;
   color: var(--base-400);
   margin-top: 0.25rem;
@@ -98,7 +98,7 @@
   border: 1px solid var(--base-300);
   border-radius: 6px;
   background: white;
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.7rem;
   color: var(--base-600);
   cursor: pointer;
@@ -141,7 +141,7 @@
   text-align: center;
   padding: 2rem;
   color: var(--base-400);
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.8rem;
   background: var(--base-100);
   border-radius: 8px;

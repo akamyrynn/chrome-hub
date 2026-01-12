@@ -111,7 +111,7 @@
 }
 
 .no-products p {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.9rem;
   text-transform: uppercase;
   color: var(--base-400);
@@ -127,7 +127,7 @@
 }
 
 .catalog-loading p {
-  font-family: var(--font-dm-mono), monospace;
+  font-family: var(--font-mono), monospace;
   font-size: 0.9rem;
   text-transform: uppercase;
   color: var(--base-500);
