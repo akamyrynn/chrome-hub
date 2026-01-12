@@ -1,0 +1,72 @@
+.filter-button {
+  position: fixed;
+  bottom: 2rem;
+  right: calc(2rem + 130px);
+  background-color: var(--base-700);
+  color: var(--base-100);
+  border: none;
+  width: max-content;
+  padding: 0 1.75rem;
+  height: 3.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  pointer-events: all;
+  font-family: var(--font-dm-mono), monospace;
+  font-weight: 500;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+  z-index: 50;
+  
+  /* Октагон - срезанные углы */
+  clip-path: polygon(
+    10px 0, calc(100% - 10px) 0,
+    100% 10px, 100% calc(100% - 10px),
+    calc(100% - 10px) 100%, 10px 100%,
+    0 calc(100% - 10px), 0 10px
+  );
+}
+
+.filter-button:hover {
+  background-color: var(--base-600);
+}
+
+.filter-button:active {
+  transform: scale(0.95);
+}
+
+.filter-button.active {
+  background-color: var(--base-500);
+}
+
+.filter-button .filter-icon {
+  color: var(--base-100);
+}
+
+@media (max-width: 1000px) {
+  .filter-button {
+    bottom: 1rem;
+    right: calc(1rem + 110px);
+    height: 3rem;
+    padding: 0 1.25rem;
+    font-size: 0.8rem;
+    clip-path: polygon(
+      8px 0, calc(100% - 8px) 0,
+      100% 8px, 100% calc(100% - 8px),
+      calc(100% - 8px) 100%, 8px 100%,
+      0 calc(100% - 8px), 0 8px
+    );
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-button {
+    right: calc(1rem + 95px);
+    font-size: 0.75rem;
+    padding: 0 1rem;
+  }
+}

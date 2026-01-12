@@ -1,0 +1,158 @@
+.minimap {
+  position: fixed;
+  z-index: 20;
+  touch-action: none;
+  overflow: hidden;
+}
+
+/* Vertical layout (desktop) */
+.minimap.vertical {
+  top: 50%;
+  right: 2.5rem;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 350px;
+}
+
+.minimap.vertical .minimap-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  border: 2px solid var(--base-700);
+  border-radius: 6px;
+  z-index: 2;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.minimap.vertical .minimap-items {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  will-change: transform;
+}
+
+.minimap.vertical .minimap-item {
+  width: 100%;
+  height: 60px;
+  padding: 4px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Horizontal layout (mobile) */
+.minimap.horizontal {
+  top: auto;
+  right: auto;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  height: 70px;
+}
+
+.minimap.horizontal .minimap-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  border: 2px solid var(--base-700);
+  border-radius: 6px;
+  z-index: 2;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.minimap.horizontal .minimap-items {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  height: 100%;
+  will-change: transform;
+}
+
+.minimap.horizontal .minimap-item {
+  width: 60px;
+  height: 100%;
+  padding: 4px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Item styles */
+.minimap-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: opacity 0.2s ease;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.minimap-item:not(.active) img {
+  opacity: 0.7;
+}
+
+.minimap-item.active img {
+  opacity: 0.35;
+}
+
+.minimap-item:hover:not(.active) img {
+  opacity: 1;
+}
+
+/* Hide on very small screens */
+@media (max-width: 480px) {
+  .minimap.horizontal {
+    bottom: 1.5rem;
+    width: 240px;
+    height: 60px;
+  }
+  
+  .minimap.horizontal .minimap-indicator {
+    width: 50px;
+  }
+  
+  .minimap.horizontal .minimap-item {
+    width: 50px;
+  }
+}
+
+/* Desktop adjustments */
+@media (min-width: 901px) {
+  .minimap.vertical {
+    right: 2rem;
+    width: 80px;
+    height: 400px;
+  }
+  
+  .minimap.vertical .minimap-indicator {
+    height: 65px;
+  }
+  
+  .minimap.vertical .minimap-item {
+    height: 65px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .minimap.vertical {
+    right: 4rem;
+    width: 90px;
+    height: 450px;
+  }
+  
+  .minimap.vertical .minimap-indicator {
+    height: 70px;
+  }
+  
+  .minimap.vertical .minimap-item {
+    height: 70px;
+  }
+}

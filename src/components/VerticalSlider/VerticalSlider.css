@@ -1,0 +1,73 @@
+.vertical-slider {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 120px 0 80px;
+  z-index: 1;
+}
+
+.slider-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 360px;
+}
+
+.slider-card-wrapper {
+  width: 100%;
+  scroll-snap-align: center;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Ensure all cards have same size */
+.slider-card-wrapper .product {
+  width: 100%;
+  max-width: 100%;
+}
+
+.slider-card-wrapper .product .product-img {
+  height: 360px;
+}
+
+/* Optional: Add scroll-snap to parent if needed */
+.vertical-slider.snap-enabled {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.vertical-slider.snap-enabled .slider-content {
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+}
+
+@media (max-width: 768px) {
+  .vertical-slider {
+    padding: 100px 0 60px;
+  }
+  
+  .slider-content {
+    gap: 1.5rem;
+    max-width: 320px;
+  }
+  
+  .slider-card-wrapper .product .product-img {
+    height: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-content {
+    max-width: 280px;
+    padding: 0 0.5rem;
+  }
+  
+  .slider-card-wrapper .product .product-img {
+    height: 280px;
+  }
+}

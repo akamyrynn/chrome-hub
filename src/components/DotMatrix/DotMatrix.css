@@ -1,0 +1,36 @@
+.dot-matrix-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  z-index: -1;
+}
+
+.dot-matrix-wrapper.fixed {
+  position: fixed;
+  height: 100vh;
+  z-index: 0;
+}
+
+.dot-matrix-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: opacity;
+}
+
+.dot-matrix-layer canvas,
+.dot-matrix-wrapper canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: translate3d(0, 0, 0);
+}
